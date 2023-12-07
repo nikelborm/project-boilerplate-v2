@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+
+!config_local.template.py
+!config_local.dev.py
+!config_local.prod.py
+
+!servers.template.json
+!servers.dev.json
+
+!template.passfile
+!dev.passfile
+
+!Dockerfile

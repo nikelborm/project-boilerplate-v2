@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+# it is better to ignore dev.env and not commit it
+!dev.template.env
+!prod.template.env

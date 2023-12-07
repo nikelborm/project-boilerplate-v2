@@ -1,0 +1,17 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Main DB",
+      "Group": "Servers",
+      "Port": 5432,
+      "Username": "pgdockeruser",
+      "ConnectionParameters": {
+        "sslmode": "prefer",
+        "connect_timeout": 10,
+        "passfile": "/.pgpass"
+      },
+      "Host": "postgres-host",
+      "MaintenanceDB": "pgdockerdatabase"
+    }
+  }
+}
